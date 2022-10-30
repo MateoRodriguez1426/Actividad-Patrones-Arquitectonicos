@@ -1,0 +1,5 @@
+# Observer
+> El patron de diseño Observer busca que los objetos notifiquen a otros objetos cuando estos sean alterados o sufran cambios en sus funcionalidades e informacion.
+### Ejemplo Vida Real
+> Para entender mejor este concepto supongamos que tenemos una tienda de aparatos electronicos que muy pronto recibira la ultima consola de videojuegos, asi los clientes estan muy ansiosos y realizan contantes viajes para comprobar si ya ha llegado el nuevo producto, lo mas logico de estos viajes es que sean perdidos y no tengan ninguna utilidad. Para esto el objeto interesante que en este caso es la tienda se le llamara  ***sujeto*** o tambien ***editor*** ya que avisara a los clientes que son llamados ***Suscriptores*** cuando llegue el ansiado producto.
+>Asi mediante el patron observer se agregara un mecanismo de suscripcion a la tienda para que los clientes se suscriban si estan interesados en el producto, 

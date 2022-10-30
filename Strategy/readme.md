@@ -1,0 +1,3 @@
+# Strategy 
+> El patron de diseño de comportamiento Strategy tiene como objetivo definir una serie de algoritmos encapsulados que permite colocar cada uno de ello en una clase separada y hacer sus objetos intercambiables.
+> Se implementa en Python reemplazando dinámicamente el contenido de un método definido dentro de una clase con el contenido de funciones definidas fuera de la clase. Permite seleccionar el algoritmo en tiempo de ejecución. Este método también se denomina Método de política.

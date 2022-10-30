@@ -1,0 +1,6 @@
+# Patron Singleton:
+> El patron singleton es un patron de creacion enfocado en la creacion de objetos y tiene como objetivo la implementacion de una unica instancia cuando se realizan tareas repetitivas o de gran flujo de informacion. 
+> Por lo tanto un singleton se aplica cuando con una unica instancia se puede realizar los procesos de creacion, inicializacion y acceso
+### Ejemplo:
+>Para contextualizar de mejor manera lo que permite hacer un Singleton, imagine que para un aeropuerto se necesita que los usuarios
+elijan su pais de una determinada lista de paises, usualmente se podria realizar una instancia con la lista de los paises que lo conforman para cada usuario, como se podran dar cuenta una lista con cientos de elementos siendo instanciada para miles de usuarios es complejo repetitivo y poco eficiente, aqui entra el singleton que instanciando unicamente un elemento, que en este caso seria la lista de paises, los usuarios podrian acceder a ella de forma comun, es decir se crea una instancia unica la cual realize varias actividades y los usuarios puedan acceder a ella de manera globaL.

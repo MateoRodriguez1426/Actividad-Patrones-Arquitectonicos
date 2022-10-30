@@ -1,0 +1,2 @@
+# Memento
+>Memento es un patron de diseño cuya funcionalidad consiste en capturar la informacion o estado de un objeto y guardarla mediante serializacion, para posteriormente restaurar u comparar el objeto guardado con el actual, cabe resaltar que no se busca comprometer o modificar la estructura e informacion del objeto requerido, simplemente guardarla

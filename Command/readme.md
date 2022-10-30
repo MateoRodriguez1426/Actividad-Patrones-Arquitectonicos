@@ -1,0 +1,2 @@
+# Command
+> El command es un patron de diseño cuyo objetivo es convertir solicitudes u operaciones simples en objetos, gracias a este procedimientos se pueden hacer pasar solicitudes como argumentos de un metododo o poner en cola de ejecucion una solicitud, asi mismo estos objetos convertidos traeran consigo infromacion detallada acerca de los metodos y funcionalidades que se requieren para asi mejorar la eficiencia y funcionalidad.

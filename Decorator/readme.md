@@ -1,0 +1,3 @@
+# Patron de Diseño Decorator 
+> El patron de diseño Decoretor es un herramienta util y eficiente que permite a los desarrolladores modificar las funcionalidades y comportamientos de una funcion o clase. Esto lo hacen encapsulando una funcion para posteriormente extender o agregarle funcionamientos, sin modificarla permanentemente.
+>Los Decorators las funciones se toman como argumento en otra funcion y posteriormente son  citadas dento de la funcion contenedora que modifica las funcionalidades
