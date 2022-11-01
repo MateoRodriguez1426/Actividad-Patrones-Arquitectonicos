@@ -11,4 +11,7 @@
 >Como se ha mencionado anteriormente el metodo factory consiste en la creacion de un subtipo de clase determinado por medio de una clase factory
 
 
+#### Conclusion 
+La fabrica produce objetos de una determinada clase, es decir que no hay que instanciar directamente, si no que por medio de la fabrica esta nos devolvera la instancia de la clase.
+
  
