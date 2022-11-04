@@ -33,6 +33,9 @@
  ### Diagrama
  ![imagen](https://refactoring.guru/images/patterns/diagrams/command/solution3-en.png)
 
+ ### Ejemplo
+ ![imagen](Patrones de Diseño\Imagenes\Command.png)
+
 
 # Patron de Diseño Decorator 
 > El patron de diseño Decoretor es un herramienta util y eficiente que permite a los desarrolladores modificar las funcionalidades y comportamientos de una funcion o clase. Esto lo hacen encapsulando una funcion para posteriormente extender o agregarle funcionamientos, sin modificarla permanentemente.
@@ -41,6 +44,8 @@
 ### Diagrama
 ![imagen](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Schaubilder/representacion-grafica-del-patron-decorator.png)
 
+### Ejemplo
+![imagen](Patrones de Diseño\Imagenes\Decorator.png)
 
 # Dependency injection
 >El patron de Diseño es un principio que ayuda a disminuir el acoplamiento que significa cuando una clase necesita saber detalles internos sobre la estructura, informacion y funcionamiento de otra clase, atentando contra el principio de POO de modularizacion, ademas el patron Dependency injection insta en aumenta la cohesion y flexibilidad del codigo al momento de ser modificado y reestructurado
@@ -66,18 +71,33 @@
 #### Conclusion 
 La fabrica produce objetos de una determinada clase, es decir que no hay que instanciar directamente, si no que por medio de la fabrica esta nos devolvera la instancia de la clase.
 
+### Diagrama
+
 ![imagen](https://refactoring.guru/images/patterns/diagrams/factory-method/structure.png)
+
+### Ejemplo
+![imagen]()
 
 # Facade Python 
 > El patron de diseño estructural Facade permite la integracion de una interfaz unificada simplificada a un sistema complejo de clases, bibliotecas o marcos.
 > Esto patron de diseño es una parte escencial de los Gang of Four. Por lo tanto proporciona una forma mas facil de acceder a los metodos de los sistemas subyacentes al proporcionar un unico punto de entrada.
-
+### Diagrama
 ![imagen](https://refactoring.guru/images/patterns/diagrams/facade/structure.png)
+
+### Ejemplo
+![imagen](Patrones de Diseño\Imagenes\Facade.png)
 
 # Memento
 >Memento es un patron de diseño cuya funcionalidad consiste en capturar la informacion o estado de un objeto y guardarla mediante serializacion, para posteriormente restaurar u comparar el objeto guardado con el actual, cabe resaltar que no se busca comprometer o modificar la estructura e informacion del objeto requerido, simplemente guardarla
 
+
+### Diagrama
 ![imagen](https://refactoring.guru/images/patterns/diagrams/memento/solution-en.png)
+
+
+### Ejemplo
+![imagen](Patrones de Diseño\Imagenes\Facade.png)
+
 
 # Observer
 > El patron de diseño Observer busca que los objetos notifiquen a otros objetos cuando estos sean alterados o sufran cambios en sus funcionalidades e informacion.
@@ -85,8 +105,14 @@ La fabrica produce objetos de una determinada clase, es decir que no hay que ins
 > Para entender mejor este concepto supongamos que tenemos una tienda de aparatos electronicos que muy pronto recibira la ultima consola de videojuegos, asi los clientes estan muy ansiosos y realizan contantes viajes para comprobar si ya ha llegado el nuevo producto, lo mas logico de estos viajes es que sean perdidos y no tengan ninguna utilidad. Para esto el objeto interesante que en este caso es la tienda se le llamara  ***sujeto*** o tambien ***editor*** ya que avisara a los clientes que son llamados ***Suscriptores*** cuando llegue el ansiado producto.
 >Asi mediante el patron observer se agregara un mecanismo de suscripcion a la tienda para que los clientes se suscriban si estan interesados en el producto, 
 
+
+### Diagrama
 ![imagen](https://refactoring.guru/images/patterns/diagrams/observer/solution2-en.png)
 
+
+
+### Ejemplo
+![imagen](Patrones de Diseño\Imagenes\Observer.png)
 
 # Patron de Diseño Prototype:
 > Es un patron de diseño creacional que su principal objetivo es reducir el numero de clases usadas en las aplicaciones, mediante el clonamiento de objetos inclusive complejos, sin acoplarlos a sus clases especificas. Esto quiere decir que le permiten copiar objetos existentes independientemente de .
@@ -95,16 +121,22 @@ la implementacion concreta de sus clases.
 > Imaginen que se tiene la clase Figuras que produce diferentes figuras geometricas, como circulo, rectangulo, Triangulo, Cuadrado, Hexagono, etc. y todos estos son objetos. Posteriormente necesitamos crear un nuevo objeto aplicando las mismas funcionalidades de los objetos originales y copiara sus valores. Pero asi mismo no necesitamos copiar todos y cada uno de los campos del objeto original.
 > Asi las clases prototipo deben tener una interfaz comun que permita copiar objetos incluso si se desconocen sus clases concretas.
 
+
+### Diagrama
 ![imagen](https://refactoring.guru/images/patterns/diagrams/prototype/structure.png)
+
+
 
 
 # Proxy
 > Proxy es un Patron de Diseño que tiene la funcionalidad  de actuar como un intermediario que gestiona las solicitudes de los clientes que buscan un determinado recurso en otros servidores. 
 >El patron proxy trata de proporcionar un objeto intermediario que represente o sustituya al objeto original con motivo de controlar el acceso y otras caracteristicas del mismo.
 
+### Daigrama
 ![imagen](https://refactoring.guru/images/patterns/diagrams/proxy/solution-en.png)
 
-
+### Ejemplo
+![imagen](Patrones de Diseño\Imagenes\Proxy.png)
 
 # Patron Singleton:
 > El patron singleton es un patron de creacion enfocado en la creacion de objetos y tiene como objetivo la implementacion de una unica instancia cuando se realizan tareas repetitivas o de gran flujo de informacion. 
@@ -113,10 +145,21 @@ la implementacion concreta de sus clases.
 >Para contextualizar de mejor manera lo que permite hacer un Singleton, imagine que para un aeropuerto se necesita que los usuarios
 elijan su pais de una determinada lista de paises, usualmente se podria realizar una instancia con la lista de los paises que lo conforman para cada usuario, como se podran dar cuenta una lista con cientos de elementos siendo instanciada para miles de usuarios es complejo repetitivo y poco eficiente, aqui entra el singleton que instanciando unicamente un elemento, que en este caso seria la lista de paises, los usuarios podrian acceder a ella de forma comun, es decir se crea una instancia unica la cual realize varias actividades y los usuarios puedan acceder a ella de manera globaL.
 
+### Diagrama
+
 ![imagen](https://refactoring.guru/images/patterns/diagrams/singleton/structure-en.png)
 
+### Ejemplo
+
+![imagen](Imagenes\Singleton.png)
 
 # Strategy 
 > El patron de diseño de comportamiento Strategy tiene como objetivo definir una serie de algoritmos encapsulados que permite colocar cada uno de ello en una clase separada y hacer sus objetos intercambiables.
 > Se implementa en Python reemplazando dinámicamente el contenido de un método definido dentro de una clase con el contenido de funciones definidas fuera de la clase. Permite seleccionar el algoritmo en tiempo de ejecución. Este método también se denomina Método de política.
+
+### Diagrama
 ![imagen](https://refactoring.guru/images/patterns/diagrams/strategy/solution.png)
+
+
+### Ejemplo
+![imagen](Imagenes\Strategy.png)
