@@ -151,7 +151,7 @@ elijan su pais de una determinada lista de paises, usualmente se podria realizar
 
 ### Ejemplo
 
-![imagen](Imagenes\Singleton.png)
+![imagen](\Imagenes\Singleton.png)
 
 # Strategy 
 > El patron de diseño de comportamiento Strategy tiene como objetivo definir una serie de algoritmos encapsulados que permite colocar cada uno de ello en una clase separada y hacer sus objetos intercambiables.
